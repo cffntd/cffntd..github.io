@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.coming-soon {
+    font-size: 48px;
+}
+
+.xmas {
+    animation: color-change 1s linear alternate infinite;
+}
+
+@keyframes color-change {
+    from { color: red; }
+    to { color: green;}
+}
+
+.footer {
+    font-size: 12px;
+}
